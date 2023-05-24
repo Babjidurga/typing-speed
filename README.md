@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/Babjidurga/typing-speed/assets/113676689/83f42045-20f2-48f5-8f65-08db4db19e12)
+ # Starting page 
+ 
+ 
+# Typing Practice App
 
-## Available Scripts
+This is a simple typing practice app built with React. It allows users to improve their typing speed and accuracy by typing a specific set of letters within a given time limit.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Timer: Displays the countdown timer in minutes and seconds.
+- Typing Box: Shows the target letters to be typed, with highlighted keys when pressed.
+- Input Field: Allows users to type the letters and captures user input.
+- Start/Stop/Reset: Controls to start, stop, and reset the typing practice.
+- Results: Displays the number of keys pressed, accuracy percentage, and words per minute after the timer reaches zero.
+- Tips: Provides finger placement tips for typing the target letters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Basic example 
+![image](https://github.com/Babjidurga/typing-speed/assets/113676689/a8c54c80-3137-42c8-b5e4-7e1b71849e31)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Functionalities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Timer: The timer starts counting down from 5 minutes when the "Start" button is clicked. It stops when the "Stop" button is clicked or when the timer reaches zero.
+- Typing Highlight: The target letters "a", "s", "d", "f", "j", "k", "l", ";" are displayed in the typing box. When the user clicks or presses these keys, they are highlighted in the box.
+- Input Tracking: The input field captures the user's typing. As the user types, the input is displayed in the field, and the corresponding key in the typing box is highlighted.
+- Accuracy Calculation: When the user stops typing or the timer reaches zero, the app calculates the accuracy by comparing the typed words with the target word "asdfjkl;". The accuracy is displayed as a percentage.
+- Words Per Minute: The app calculates the words per minute (WPM) based on the total number of words typed within the time limit.
+- Reset: The "Reset" button resets the timer, input field, typing highlights, and results.
 
-### `npm run build`
+## Setup and Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository or download the code.
+2. Install the dependencies by running `npm install` in the project directory.
+3. Start the app with `npm start`.
+4. Access the app in your web browser at `http://localhost:3000`.
+5. Start practicing typing by following the on-screen instructions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# R E S U L T S P A G E
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##You can watch the demo of the above code at https://typing-speed-babjidurga.vercel.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## To get the better understanding of the code watch this video https://www.loom.com/share/749e0b2f3fb04ddab59823da230891ab
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dependencies
 
-## Learn More
+- React: A JavaScript library for building user interfaces.
+- CSS: Cascading Style Sheets for styling the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app is created for educational purposes to help users improve their typing skills. It is inspired by various typing practice tools available online.
 
-### Code Splitting
+Feel free to modify and enhance the app to suit your needs. Happy typing!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
