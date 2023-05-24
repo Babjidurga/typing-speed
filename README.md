@@ -37,12 +37,12 @@ This is a simple typing practice app built with React. It allows users to improv
 4. Access the app in your web browser at `http://localhost:3000`.
 5. Start practicing typing by following the on-screen instructions.
 
-# R E S U L T S P A G E
+## R E S U L T S P A G E
 
 
-##You can watch the demo of the above code at https://typing-speed-babjidurga.vercel.app/
+### You can watch the demo of the above code at https://typing-speed-babjidurga.vercel.app/
 
-## To get the better understanding of the code watch this video https://www.loom.com/share/749e0b2f3fb04ddab59823da230891ab
+### To get the better understanding of the code watch this video https://www.loom.com/share/749e0b2f3fb04ddab59823da230891ab
 
 
 
